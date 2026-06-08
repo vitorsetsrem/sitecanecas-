@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Definitions for Gradients if needed, but keeping it flat and modern like the original -->
+  <g id="logo-graphics">
+    <!-- Escudo de Fundo -->
+    <!-- Top-left to top-center curve, to top-right curve, down sides, to bottom point -->
+    <path d="M 250,90 
+             C 290,90 325,98 345,110 
+             L 345,260 
+             C 345,340 280,395 250,410 
+             C 220,395 155,340 155,260 
+             L 155,110 
+             C 175,98 210,90 250,90 Z" 
+          fill="#104a8e" 
+          stroke="#cda036" 
+          stroke-width="12" 
+          stroke-linejoin="round" />
+
+    <!-- Penas da Cauda (Abaixo da Garra) -->
+    <path d="M 220,320 L 210,380 L 235,385 L 250,330 Z" fill="#cda036" />
+    <path d="M 280,320 L 290,380 L 265,385 L 250,330 Z" fill="#cda036" />
+    <path d="M 250,320 L 250,392 L 238,390 L 235,330 Z" fill="#cda036" />
+    <path d="M 250,320 L 250,392 L 262,390 L 265,330 Z" fill="#cda036" />
+
+    <!-- Águia e Asas Simétricas -->
+    <!-- Asa Direita (Gold) -->
+    <path d="M 250,190 
+             C 285,160 380,60 480,50
+             C 475,85 450,150 380,240
+             C 340,290 280,310 250,310 Z" 
+          fill="#cda036" />
+    
+    <!-- Detalhes das Penas na Asa Direita -->
+    <path d="M 330,220 C 375,180 435,115 470,85 C 452,145 400,210 330,260 Z" fill="#cda036" stroke="#104a8e" stroke-width="3" />
+    <path d="M 305,245 C 345,210 395,160 435,130 C 415,190 365,240 305,280 Z" fill="#cda036" stroke="#104a8e" stroke-width="3" />
+    <path d="M 280,265 C 315,240 355,200 390,175 C 370,225 330,265 280,295 Z" fill="#cda036" stroke="#104a8e" stroke-width="3" />
+
+    <!-- Asa Esquerda (Gold) -->
+    <path d="M 250,190 
+             C 215,160 120,60 20,50
+             C 25,85 50,150 120,240
+             C 160,290 220,310 250,310 Z" 
+          fill="#cda036" />
+
+    <!-- Detalhes das Penas na Asa Esquerda -->
+    <path d="M 170,220 C 125,180 65,115 30,85 C 48,145 100,210 170,260 Z" fill="#cda036" stroke="#104a8e" stroke-width="3" />
+    <path d="M 195,245 C 155,210 105,160 65,130 C 85,190 135,240 195,280 Z" fill="#cda036" stroke="#104a8e" stroke-width="3" />
+    <path d="M 220,265 C 185,240 145,200 110,175 C 130,225 170,265 220,295 Z" fill="#cda036" stroke="#104a8e" stroke-width="3" />
+
+    <!-- Corpo da Águia (Azul Escuro/Central) -->
+    <path d="M 250,140
+             C 265,140 282,175 282,230
+             C 282,295 270,320 250,325
+             C 230,320 218,295 218,230
+             C 218,175 235,140 250,140 Z" 
+          fill="#104a8e" 
+          stroke="#cda036" 
+          stroke-width="5" />
+
+    <!-- Cabeça da Águia (Dourada voltada para a esquerda) -->
+    <path d="M 250,120
+             C 265,120 278,135 278,155
+             C 278,175 265,190 250,192
+             C 235,190 220,172 215,165
+             C 210,158 212,154 220,154
+             C 225,154 220,145 228,138
+             C 235,130 242,120 250,120 Z" 
+          fill="#cda036" />
+    <!-- Bico da Águia -->
+    <path d="M 218,152 Q 206,155 212,165 Q 220,165 220,154 Z" fill="#cda036" />
+    <!-- Olho da Águia -->
+    <circle cx="240" cy="145" r="3" fill="#104a8e" />
+    <path d="M 235,140 L 246,143" stroke="#104a8e" stroke-width="1.5" />
+
+    <!-- Garra Horizontal (Bastão Dourado) -->
+    <rect x="200" y="312" width="100" height="12" rx="6" fill="#cda036" />
+    
+    <!-- Dedos da Garra Segurando o Bastão -->
+    <!-- Garra Esquerda -->
+    <circle cx="225" cy="318" r="6" fill="#cda036" stroke="#104a8e" stroke-width="1.5" />
+    <circle cx="233" cy="318" r="6" fill="#cda036" stroke="#104a8e" stroke-width="1.5" />
+    <circle cx="241" cy="318" r="6" fill="#cda036" stroke="#104a8e" stroke-width="1.5" />
+    <!-- Garra Direita -->
+    <circle cx="259" cy="318" r="6" fill="#cda036" stroke="#104a8e" stroke-width="1.5" />
+    <circle cx="267" cy="318" r="6" fill="#cda036" stroke="#104a8e" stroke-width="1.5" />
+    <circle cx="275" cy="318" r="6" fill="#cda036" stroke="#104a8e" stroke-width="1.5" />
+
+    <!-- Elementos Internos: Colher e Garfo no Peito (Branco) -->
+    <!-- Colher (Lado Esquerdo do Peito) -->
+    <g transform="translate(0, 0)">
+      <!-- Cabo da Colher -->
+      <path d="M 238,280 L 244,208 C 244,208 245,208 245,209 L 240,280 Z" fill="#ffffff" />
+      <!-- Bojo da Colher -->
+      <ellipse cx="244" cy="204" rx="7" ry="11" fill="#ffffff" transform="rotate(-10 244 204)" />
+    </g>
+
+    <!-- Garfo (Lado Direito do Peito) -->
+    <g transform="translate(0, 0)">
+      <!-- Cabo do Garfo -->
+      <path d="M 262,280 L 256,212 L 258,212 L 264,280 Z" fill="#ffffff" />
+      <!-- Cabeça do Garfo -->
+      <path d="M 251,208 C 251,201 261,201 261,208 L 261,213 L 251,213 Z" fill="#ffffff" />
+      <!-- Dentes do Garfo -->
+      <line x1="253" y1="208" x2="253" y2="198" stroke="#104a8e" stroke-width="2" />
+      <line x1="256" y1="208" x2="256" y2="198" stroke="#104a8e" stroke-width="2" />
+      <line x1="259" y1="208" x2="259" y2="198" stroke="#104a8e" stroke-width="2" />
+    </g>
+  </g>
+</svg>
